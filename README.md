@@ -3,8 +3,6 @@
 A sleek, responsive weather application built with Vanilla JavaScript, HTML5, and CSS3. This project utilizes the OpenWeatherMap API to provide real-time weather data and a 5-day forecast with a modern "Glassmorphism" UI design.
 
 <img width="2827" height="1470" alt="image" src="https://github.com/user-attachments/assets/e91193a3-4926-4814-80df-e78a045374a7" />
-<img width="1205" height="536" alt="image" src="https://github.com/user-attachments/assets/4971a92f-0133-486a-b12e-637d4c5d5e20" />
-
 
 ## ✨ Features
 * **Real-time Data:** Fetches current temperature, humidity, wind speed, and pressure.
