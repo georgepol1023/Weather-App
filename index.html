@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyCast Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" placeholder="Search city..." spellcheck="false">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div class="main-card">
+            <div class="current-weather">
+                <div class="left">
+                    <h1 id="city"></h1>
+                    <p id="date"></p>
+                    <h2 id="temp"></h2>
+                    <p id="description"></p>
+                </div>
+                <img src="https://openweathermap.org/img/wn/01d@4x.png" id="main-icon" alt="weather">
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat">
+                    <span>Feels Like</span>
+                    <p id="feels-like"></p>
+                </div>
+                <div class="stat">
+                    <span>Humidity</span>
+                    <p id="humidity"></p>
+                </div>
+                <div class="stat">
+                    <span>Wind Speed</span>
+                    <p id="wind"></p>
+                </div>
+                <div class="stat">
+                    <span>Pressure</span>
+                    <p id="pressure"></p>
+                </div>
+            </div>
+        </div>
+
+        <h3>5-Day Forecast</h3>
+        <div class="forecast-container" id="forecast">
+            </div> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
